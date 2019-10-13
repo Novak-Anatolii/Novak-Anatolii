@@ -247,12 +247,15 @@ void main()
 #ifdef HARDCORE_CHECK
 	List<int> list1 = { 3, 5, 8, 13, 21 };
 	list1.print();
-	/*List<int> list2 = { 34, 55, 89 };
-	list2.print();*/
+	List<int> list2 = { 34, 55, 89 };
+	list2.print();
 	//List<int> list3 = list1 + list2;	//Конкатенация списков.
 	//list3.print();
 	//
 #endif // HARDCORE_CHECK
+
+	List<double> dbl_list = { 2.5, 3.14, 8.2 };
+	dbl_list.print();
 
 
 }
